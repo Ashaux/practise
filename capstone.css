@@ -1,0 +1,250 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+header {
+    background-image: url(background6.jpg);
+    height: 100vh;
+    width: 100%
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro {
+    color: black;
+    text-align: center;
+    /* width: 100%; */
+    width: 30%;
+    /* height: 20%; */
+    border-radius: 10px;
+    position: absolute;
+    /* position: relative; */
+    top: 10%;
+    /* background-color: grey;
+    opacity: 0.5;
+ */
+}
+
+.intro > h1 {
+    font-size: 2rem;
+    margin-bottom:30px;
+  
+}
+
+.intro > p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.intro button {
+    color:white;
+    /* font-weight: bold; */
+    background-color: green;
+    font-size:1.1rem;
+    padding:5px;
+    margin:10px;
+    border: none;
+    border-radius: 5px;
+   text-align: center;
+   margin: auto;
+   margin-top: 15px;
+}
+
+#socials {
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5rem;
+    margin:5px 10px 0 0;
+}
+
+.fab {
+    padding:5px;
+
+
+    
+}
+
+
+.aboutme {
+    padding:90px 10% 120px 10%;
+    background-color: white;
+    border: none;
+}
+
+.projects {
+    /* background-color: rgb(66, 64, 64); */
+    background-image: url(background9.jpg);
+    padding: 30px 0;
+    align-items: center;
+    border: none;
+}
+
+/* .projects > image {
+    transform: rotate(90deg);
+} */
+
+.card-body {
+    width: 300px;
+    min-height: 240px;
+    /* margin:15px; */
+    margin:20px auto;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 0 5px 12px 0 rgba(82, 82, 82, 0.5);
+    padding: 30px 30px 30px 30px;
+   
+}
+
+.card-body p {
+    padding: 10px 0;
+}
+
+/*Contact Me*/
+.contactsection {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    
+    
+} 
+
+.touch-text {
+    width:46%;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.touch-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    
+}
+
+/*Form Styling*/
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding:10px;
+    background-color: antiquewhite;
+    border-radius:5px;
+}
+
+#contactForm {
+    padding:25px;
+}
+
+input [type="text"],
+input [type="email"],
+input [type="number"],
+input [type="submit"],
+
+textarea {
+    width:80%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+input [type="submit"] {
+    background-color: green;
+    color:black;
+    padding: 14px 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+input [type="submit"] :hoover {
+  
+    background-color: yellowgreen;
+}
+
+footer {
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(82, 82, 82, 0.5);
+    opacity: 0.5;
+}
+
+.intro button {
+    align-items: center;
+}
+
+.intro button : hoover {
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: blue;
+}
+
+.cloud h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    /* padding:90px 10% 120px 10%; */
+    align-items: center;
+    text-align: center;
+}
+
+.cloud h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    /* padding:90px 10% 120px 10%; */
+    align-items: center;
+    text-align: center;
+}
+
+.cloud img {
+    width:5%;
+    height: 5%;
+    position: relative;
+    align-items: center;
+     
+}
+
+/* a hoover {
+    color: yellow;
+} */
+
+/*MEDIA QUERY*/
+@media screen and (min-width: 40em) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        /* width:20%;
+        height:20%; */
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        width: 300px;
+        /* width:20%;
+        height:20%; */
+    }
+}
+    
+
+
+
+
